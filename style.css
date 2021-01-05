@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Redressed", cursive;
+  color: rgb(3, 8, 78);
+}
+section {
+  height: 500px;
+  margin-bottom: 7%;
+}
+.top-part {
+  background-image: url(images/h3.png);
+  background-repeat: no-repeat;
+  background-size: 15%;
+}
+.half-width {
+  width: 30%;
+  float: left;
+  margin-left: 5%;
+  margin-top: 7%;
+  padding: 3%;
+}
+.other-half-width {
+  width: 45%;
+  float: left;
+  margin-left: 5%;
+  margin-top: 3%;
+  padding: 1%;
+}
+.other-half-width img {
+  width: 110%;
+}
+.link-btn {
+  text-decoration: none;
+  font-weight: 800;
+  padding: 10px 20px;
+  background: linear-gradient(45deg, rgb(226, 87, 184), rgb(146, 31, 175));
+  color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 8px gray;
+}
+
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 30px;
+}
+p {
+  font-size: 20px;
+  color: rgb(81, 87, 133);
+  margin-bottom: 30px;
+}
+span {
+  color: rgb(144, 9, 144);
+}
+.aboutme {
+  background-image: url(images/h4.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 12%;
+}
+.other-part {
+  width: 45%;
+  float: left;
+  margin-left: 4%;
+  margin-top: 3%;
+  padding: 1%;
+}
+.other-part img {
+  width: 105%;
+}
+.other-part-2 {
+  width: 30%;
+  float: left;
+  margin-left: 5%;
+  margin-top: 5%;
+  padding: 3%;
+}
+.experience-part {
+  background-image: url(images/h3.png), url(images/h4.png);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 300px, 200px;
+
+  background-position: top left, right bottom;
+}
+.grid {
+  width: 15%;
+  float: left;
+  margin-top: 5%;
+  margin-left: 3%;
+  padding: 2% 4%;
+  color: rgb(144, 9, 144);
+  box-shadow: 5px 5px 10px gray;
+  border-bottom: 10px solid;
+  border-image: linear-gradient(90deg, rgb(31, 143, 207), rgb(210, 34, 226));
+  border-image-slice: 1;
+}
+.grid h2 {
+  text-align: center;
+  margin-bottom: 2%;
+}
+.grid p {
+  text-align: justify;
+}
+
+.center {
+  margin-left: 17%;
+}
+footer p {
+  text-align: center;
+}
